@@ -1,0 +1,102 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0402
+header_name {.h}
+code_name {.cxx}
+Function {main()} {open
+} {
+  Fl_Window {} {
+    label {회사 찾기} open
+    xywh {209 63 480 393} type Double hide resizable
+  } {
+    Fl_Input {} {
+      label {회사명 검색}
+      xywh {84 102 160 24}
+    }
+    Fl_Button {} {
+      label {검색}
+      xywh {248 102 64 22}
+    }
+    Fl_Button {} {
+      label {회사 추가}
+      xywh {377 46 64 22}
+    }
+    Fl_Button {} {
+      label {닫기}
+      xywh {353 350 64 22}
+    }
+    Fl_Browser {} {
+      label {검색 결과}
+      xywh {18 134 290 160}
+    }
+  }
+  Fl_Window {} {
+    label {공고 입력} open
+    xywh {209 485 480 393} type Double hide
+  } {
+    Fl_Output {} {
+      label {회사명}
+      xywh {66 15 92 22}
+    }
+    Fl_Button {} {
+      label {확인}
+      xywh {405 358 64 20}
+    }
+    Fl_Button {} {
+      label {적용}
+      xywh {266 358 64 20}
+    }
+    Fl_Button {} {
+      label {취소}
+      xywh {334 358 64 20}
+    }
+    Fl_Button {} {
+      label {자기소개서 작성 및 수정}
+      xywh {28 103 150 22}
+    }
+    Fl_Box {} {
+      label {지원자격}
+      xywh {8 133 100 28}
+    }
+    Fl_Button {} {
+      label {지원자격 수정}
+      xywh {358 139 95 22}
+    }
+    Fl_Button {} {
+      label {직무입력}
+      xywh {375 37 64 22}
+    }
+    Fl_Check_Browser {} {
+      xywh {28 161 234 160}
+    }
+  }
+  Fl_Window {} {
+    label {지원자격} open
+    xywh {995 329 480 320} type Double hide
+  } {
+    Fl_Input {} {
+      label {지원자격}
+      xywh {86 53 200 22}
+    }
+  }
+  Fl_Window {} {
+    label {문항 수 입력} open
+    xywh {499 558 251 137} type Double hide
+  } {
+    Fl_Spinner {} {
+      label {문항 수}
+      xywh {107 53 64 22}
+    }
+  }
+  Fl_Window {} {
+    label {자기소개서 작성} open
+    xywh {540 53 763 464} type Double hide
+  } {
+    Fl_Input {} {
+      label {문항}
+      xywh {103 73 580 22}
+    }
+    Fl_Text_Editor {} {selected
+      xywh {77 107 620 200}
+    }
+  }
+}
