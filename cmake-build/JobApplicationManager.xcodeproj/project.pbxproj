@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		730B9880BC0375AFE330EF8D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 334B65A6BC9846DD825D157D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				89A0514433B64EEC476C190F /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9A2F501FFB34BBBB716332CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9E13EE1DB55B45AAA534850B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				04445BBF810A5168800C35F7 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				430CA1D26DEF4773B806BA93 /* PBXTargetDependency */,
+				AECD298BF4204AA38BEF175B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EE56707A05407964095A1596 /* JobApplicationManager_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 898CA9B946EE4A78A021FF4E /* Build configuration list for PBXAggregateTarget "JobApplicationManager_autogen" */;
+			buildPhases = (
+				01CBDBAA626A5990F2C69CF7 /* Generate CMakeFiles/JobApplicationManager_autogen */,
+			);
+			dependencies = (
+				C65DE94190E541C8B2F9A8E7 /* PBXTargetDependency */,
+			);
+			name = JobApplicationManager_autogen;
+			productName = JobApplicationManager_autogen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02BB7E0B95B44243920560B8 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.cpp */ = {isa = PBXBuildFile; fileRef = 404ECE29640B4B62856539E2 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.cpp */; };
+		103862280A9E41E6ADC39F33 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.cpp */ = {isa = PBXBuildFile; fileRef = DD00154F68714149BACF58A2 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.cpp */; };
+		184873C7EE614C589CBC6D6E /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.h */ = {isa = PBXBuildFile; fileRef = 9987BA51225A43E18AE74625 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.h */; };
+		2C1078EC55F343448A115985 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.h */ = {isa = PBXBuildFile; fileRef = F8F775D18CB14FABA1A75E93 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.h */; };
+		491F12E4A19348F0BC4BFD98 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.h */ = {isa = PBXBuildFile; fileRef = 2F0C6B25A0E64DC0A0FE70B9 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.h */; };
+		4AE717E75D184A83A6D503A8 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.cpp */ = {isa = PBXBuildFile; fileRef = 52EED10A33D74FC19CFC0BF8 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.cpp */; };
+		4CE3F9035E4B4929BEF7A5B3 /* /opt/homebrew/opt/qt/lib/QtWidgets.framework */ = {isa = PBXBuildFile; fileRef = 3E904D1BFA024D5E964728B3 /* /opt/homebrew/opt/qt/lib/QtWidgets.framework */; };
+		4EC664AF0E5D4A8F810E4A26 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/AGL.framework */ = {isa = PBXBuildFile; fileRef = 5F9FEA3FFB324EB7B30EE8A1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/AGL.framework */; };
+		53D7A575C76A42DEA2FA9CBD /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_model.h */ = {isa = PBXBuildFile; fileRef = 126E730564DA4857A70FD1CD /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_model.h */; };
+		56EAC206480442709F358912 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.h */ = {isa = PBXBuildFile; fileRef = E2ED5C5EED6B4A47AF2AB002 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.h */; };
+		5CFC884AD9F3493BAC9FD9CC /* /opt/homebrew/opt/qt/lib/QtGui.framework */ = {isa = PBXBuildFile; fileRef = C89E370C90F846DDAC31E6D8 /* /opt/homebrew/opt/qt/lib/QtGui.framework */; };
+		6699162287914AB592397E78 /* /opt/homebrew/opt/qt/lib/QtSql.framework */ = {isa = PBXBuildFile; fileRef = EF6867A2FB3A4650B2AB068D /* /opt/homebrew/opt/qt/lib/QtSql.framework */; };
+		A781045A16794094A69A2D4C /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/main.cpp */ = {isa = PBXBuildFile; fileRef = 5AF3E721FFF74C028DE891BB /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/main.cpp */; };
+		ADB34E3482234D24A77026E2 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.h */ = {isa = PBXBuildFile; fileRef = 5BCA7B4A39DB4354BD1E3244 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.h */; };
+		B0F9AA45A02F4B8EAF39B59E /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = F5E15FE20EED42C8B3737807 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/mocs_compilation.cpp */; };
+		B9F9560436864C56AEB3DD93 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2D21DF844EFF457D82189E2E /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist */; };
+		BD3D9CED678B465C9BF37788 /* /opt/homebrew/opt/qt/lib/QtCore.framework */ = {isa = PBXBuildFile; fileRef = EC75043730DD4C70BFFC05AB /* /opt/homebrew/opt/qt/lib/QtCore.framework */; };
+		CA0C54739B1F4058B5007068 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.cpp */ = {isa = PBXBuildFile; fileRef = B10CCA6AE36849E483FB0DFD /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.cpp */; };
+		CB6C7F5EE84D4E3B90C6802A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 42FBF5FB99CC447E9A42859A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/CMakeLists.txt */; };
+		CC309B294ACE40E9A2BCEF33 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/database_utils.h */ = {isa = PBXBuildFile; fileRef = E4EEE1A4CB1B4A919D2CF877 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/database_utils.h */; };
+		CFA749794F0C47739C15B0B9 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.h */ = {isa = PBXBuildFile; fileRef = 86834BB4F4934843A1C98AAC /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.h */; };
+		DF343025ADA44F8E8A6918A3 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.cpp */ = {isa = PBXBuildFile; fileRef = F7BA961B707941B381D3FCE9 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.cpp */; };
+		EE36843BDAF1483193144F75 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.cpp */ = {isa = PBXBuildFile; fileRef = 349A3C1016EA481AB7BE454A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0066EE87CEDC49AE9605B815 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		7A3A471068A943F58F2E18FC /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8C00AE06D06D4BBC981CD75E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D21FE9DDA25C487BBA0E7905 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		20670B52BC3A4CE696924757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994791D60A9348E3B9001699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EA549BF83189264A326AC5;
+			remoteInfo = JobApplicationManager;
+		};
+		68EEA622975E490F9B5B7D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994791D60A9348E3B9001699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730B9880BC0375AFE330EF8D;
+			remoteInfo = ZERO_CHECK;
+		};
+		696B48982F2B4764B42AE9D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994791D60A9348E3B9001699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730B9880BC0375AFE330EF8D;
+			remoteInfo = ZERO_CHECK;
+		};
+		C68C29A643514897978C9641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994791D60A9348E3B9001699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE56707A05407964095A1596;
+			remoteInfo = JobApplicationManager_autogen;
+		};
+		DFB1F28C9BD64A7FB524180B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994791D60A9348E3B9001699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730B9880BC0375AFE330EF8D;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AC729C66014BFA87689707 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		126E730564DA4857A70FD1CD /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_model.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = company_model.h; path = company_model.h; sourceTree = SOURCE_ROOT; };
+		2D21DF844EFF457D82189E2E /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		2F0C6B25A0E64DC0A0FE70B9 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = company_window.h; path = company_window.h; sourceTree = SOURCE_ROOT; };
+		349A3C1016EA481AB7BE454A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = num_issue_window.cpp; path = num_issue_window.cpp; sourceTree = SOURCE_ROOT; };
+		3E904D1BFA024D5E964728B3 /* /opt/homebrew/opt/qt/lib/QtWidgets.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /opt/homebrew/opt/qt/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		404ECE29640B4B62856539E2 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = first_window.cpp; path = first_window.cpp; sourceTree = SOURCE_ROOT; };
+		42FBF5FB99CC447E9A42859A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		52EED10A33D74FC19CFC0BF8 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = company_window.cpp; path = company_window.cpp; sourceTree = SOURCE_ROOT; };
+		5AF3E721FFF74C028DE891BB /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		5BCA7B4A39DB4354BD1E3244 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = type_qualification_window.h; path = type_qualification_window.h; sourceTree = SOURCE_ROOT; };
+		5F9FEA3FFB324EB7B30EE8A1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/AGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		7BFDE3E5328246539B175C50 /* JobApplicationManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = JobApplicationManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		86834BB4F4934843A1C98AAC /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = num_issue_window.h; path = num_issue_window.h; sourceTree = SOURCE_ROOT; };
+		9987BA51225A43E18AE74625 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = write_resume_window.h; path = write_resume_window.h; sourceTree = SOURCE_ROOT; };
+		B10CCA6AE36849E483FB0DFD /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = write_resume_window.cpp; path = write_resume_window.cpp; sourceTree = SOURCE_ROOT; };
+		B17DFDCA1EFE4036BCB95A3A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C89E370C90F846DDAC31E6D8 /* /opt/homebrew/opt/qt/lib/QtGui.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /opt/homebrew/opt/qt/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		DD00154F68714149BACF58A2 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_qualification_window.cpp; path = type_qualification_window.cpp; sourceTree = SOURCE_ROOT; };
+		E2ED5C5EED6B4A47AF2AB002 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = first_window.h; path = first_window.h; sourceTree = SOURCE_ROOT; };
+		E4EEE1A4CB1B4A919D2CF877 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/database_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = database_utils.h; path = database_utils.h; sourceTree = SOURCE_ROOT; };
+		EC75043730DD4C70BFFC05AB /* /opt/homebrew/opt/qt/lib/QtCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /opt/homebrew/opt/qt/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		EF6867A2FB3A4650B2AB068D /* /opt/homebrew/opt/qt/lib/QtSql.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QtSql.framework; path = /opt/homebrew/opt/qt/lib/QtSql.framework; sourceTree = "<absolute>"; };
+		F5E15FE20EED42C8B3737807 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = "cmake-build/JobApplicationManager_autogen/mocs_compilation.cpp"; sourceTree = SOURCE_ROOT; };
+		F7BA961B707941B381D3FCE9 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = company_add_window.cpp; path = company_add_window.cpp; sourceTree = SOURCE_ROOT; };
+		F8F775D18CB14FABA1A75E93 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = company_add_window.h; path = company_add_window.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12663532503B40099601B8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC1282669DA4E9E99C869E8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1A68020FAAE84C6BA5F29EE0 = {
+			isa = PBXGroup;
+			children = (
+				DE79A74254BD4521B2FA8EBF /* JobApplicationManager */,
+				E1A05691234C4715BC710980 /* JobApplicationManager_autogen */,
+				91F3AC94511E456F8B4BDE3A /* ALL_BUILD */,
+				88B31A0C32614920B3E3B1E2 /* Products */,
+				A527A096A040420793829AC8 /* Frameworks */,
+				943098FE00634EA3AAFDC4BC /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEE421A95A745769861A463 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8F775D18CB14FABA1A75E93 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.h */,
+				126E730564DA4857A70FD1CD /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_model.h */,
+				2F0C6B25A0E64DC0A0FE70B9 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.h */,
+				E4EEE1A4CB1B4A919D2CF877 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/database_utils.h */,
+				E2ED5C5EED6B4A47AF2AB002 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.h */,
+				86834BB4F4934843A1C98AAC /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.h */,
+				5BCA7B4A39DB4354BD1E3244 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.h */,
+				9987BA51225A43E18AE74625 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		57D3B5611A7F4CE685E7C73E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E15FE20EED42C8B3737807 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/mocs_compilation.cpp */,
+				F7BA961B707941B381D3FCE9 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.cpp */,
+				52EED10A33D74FC19CFC0BF8 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.cpp */,
+				404ECE29640B4B62856539E2 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.cpp */,
+				5AF3E721FFF74C028DE891BB /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/main.cpp */,
+				349A3C1016EA481AB7BE454A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.cpp */,
+				DD00154F68714149BACF58A2 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.cpp */,
+				B10CCA6AE36849E483FB0DFD /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		88B31A0C32614920B3E3B1E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFDE3E5328246539B175C50 /* JobApplicationManager */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BA6CC598FEB47CA9640AC7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D21DF844EFF457D82189E2E /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		91F3AC94511E456F8B4BDE3A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0FC1282669DA4E9E99C869E8 /* CMake Rules */,
+				04AC729C66014BFA87689707 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		943098FE00634EA3AAFDC4BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A527A096A040420793829AC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E904D1BFA024D5E964728B3 /* /opt/homebrew/opt/qt/lib/QtWidgets.framework */,
+				EF6867A2FB3A4650B2AB068D /* /opt/homebrew/opt/qt/lib/QtSql.framework */,
+				C89E370C90F846DDAC31E6D8 /* /opt/homebrew/opt/qt/lib/QtGui.framework */,
+				5F9FEA3FFB324EB7B30EE8A1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/AGL.framework */,
+				EC75043730DD4C70BFFC05AB /* /opt/homebrew/opt/qt/lib/QtCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B199B2B448DA404E834D2211 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DE79A74254BD4521B2FA8EBF /* JobApplicationManager */ = {
+			isa = PBXGroup;
+			children = (
+				57D3B5611A7F4CE685E7C73E /* Source Files */,
+				1AEE421A95A745769861A463 /* Header Files */,
+				8BA6CC598FEB47CA9640AC7D /* Resources */,
+				42FBF5FB99CC447E9A42859A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/CMakeLists.txt */,
+			);
+			name = JobApplicationManager;
+			sourceTree = "<group>";
+		};
+		E1A05691234C4715BC710980 /* JobApplicationManager_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				B199B2B448DA404E834D2211 /* CMake Rules */,
+				B17DFDCA1EFE4036BCB95A3A /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/CMakeLists.txt */,
+			);
+			name = JobApplicationManager_autogen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2EA549BF83189264A326AC5 /* JobApplicationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33FD96996394DC0A72F99F9 /* Build configuration list for PBXNativeTarget "JobApplicationManager" */;
+			buildPhases = (
+				6CCFFA09CBBF40F59610628F /* Sources */,
+				12663532503B40099601B8DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48287A112C04209B6BE23CC /* PBXTargetDependency */,
+				EC72788C45AF4F0E83907972 /* PBXTargetDependency */,
+			);
+			name = JobApplicationManager;
+			productName = JobApplicationManager;
+			productReference = 7BFDE3E5328246539B175C50 /* JobApplicationManager */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		994791D60A9348E3B9001699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 0166B1A48E29428683DED38F /* Build configuration list for PBXProject "JobApplicationManager" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D21FE9DDA25C487BBA0E7905 /* Debug */,
+				0066EE87CEDC49AE9605B815 /* Release */,
+				8C00AE06D06D4BBC981CD75E /* MinSizeRel */,
+				7A3A471068A943F58F2E18FC /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1A68020FAAE84C6BA5F29EE0;
+			projectDirPath = /Users/pyoungjinji/resume_manager/qt_resume/qt_resume;
+			projectRoot = "";
+			targets = (
+				9A2F501FFB34BBBB716332CF /* ALL_BUILD */,
+				E2EA549BF83189264A326AC5 /* JobApplicationManager */,
+				EE56707A05407964095A1596 /* JobApplicationManager_autogen */,
+				730B9880BC0375AFE330EF8D /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01CBDBAA626A5990F2C69CF7 /* Generate CMakeFiles/JobApplicationManager_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/JobApplicationManager_autogen";
+			outputPaths = (
+"/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager_autogen","/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/mocs_compilation.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  /opt/homebrew/bin/cmake -E cmake_autogen /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  /opt/homebrew/bin/cmake -E cmake_autogen /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  /opt/homebrew/bin/cmake -E cmake_autogen /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  /opt/homebrew/bin/cmake -E cmake_autogen /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		04445BBF810A5168800C35F7 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4BF7E764E26DCB8B39BEB795 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		89A0514433B64EEC476C190F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  make -f /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  make -f /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  make -f /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build
+  make -f /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CCFFA09CBBF40F59610628F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F9AA45A02F4B8EAF39B59E /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/mocs_compilation.cpp */,
+				DF343025ADA44F8E8A6918A3 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_add_window.cpp */,
+				4AE717E75D184A83A6D503A8 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/company_window.cpp */,
+				02BB7E0B95B44243920560B8 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/first_window.cpp */,
+				A781045A16794094A69A2D4C /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/main.cpp */,
+				EE36843BDAF1483193144F75 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/num_issue_window.cpp */,
+				103862280A9E41E6ADC39F33 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/type_qualification_window.cpp */,
+				CA0C54739B1F4058B5007068 /* /Users/pyoungjinji/resume_manager/qt_resume/qt_resume/write_resume_window.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		430CA1D26DEF4773B806BA93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2EA549BF83189264A326AC5 /* JobApplicationManager */;
+			targetProxy = 20670B52BC3A4CE696924757 /* PBXContainerItemProxy */;
+		};
+		AECD298BF4204AA38BEF175B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730B9880BC0375AFE330EF8D /* ZERO_CHECK */;
+			targetProxy = 696B48982F2B4764B42AE9D3 /* PBXContainerItemProxy */;
+		};
+		C65DE94190E541C8B2F9A8E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730B9880BC0375AFE330EF8D /* ZERO_CHECK */;
+			targetProxy = 68EEA622975E490F9B5B7D03 /* PBXContainerItemProxy */;
+		};
+		EC72788C45AF4F0E83907972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE56707A05407964095A1596 /* JobApplicationManager_autogen */;
+			targetProxy = C68C29A643514897978C9641 /* PBXContainerItemProxy */;
+		};
+		F48287A112C04209B6BE23CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730B9880BC0375AFE330EF8D /* ZERO_CHECK */;
+			targetProxy = DFB1F28C9BD64A7FB524180B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		060E368450A64D739C9D444B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/MinSizeRel";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_GUI_LIB,QT_WIDGETS_LIB,QT_SQL_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build",/Users/pyoungjinji/resume_manager/qt_resume/qt_resume,"/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/include_MinSizeRel","$(inherited)");
+				INFOPLIST_FILE = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib,"$(inherited)");
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/opt/qt/lib/QtWidgets.framework/Versions/A/QtWidgets,/opt/homebrew/opt/qt/lib/QtSql.framework/Versions/A/QtSql,/opt/homebrew/opt/qt/lib/QtGui.framework/Versions/A/QtGui,"-framework AGL","-framework AppKit","-framework OpenGL","-framework ImageIO","-framework Metal",/opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore,"-framework IOKit","-framework DiskArbitration","-framework UniformTypeIdentifiers","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.jobapplicationmanager;
+				PRODUCT_NAME = JobApplicationManager;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib,"$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib/QtCore.framework/Headers,"/opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang",/opt/homebrew/opt/qt/include,/opt/homebrew/opt/qt/lib/QtGui.framework/Headers,/opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers,/opt/homebrew/opt/qt/lib/QtSql.framework/Headers,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/build/JobApplicationManager.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		07B33B6EDBB449A9A665DF2D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0B553A755D604C089FF9F520 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1D4A0FD976AE4312B5347F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3F54626207CD4EE0A6480042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		426D313C5555472FA32527AF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JobApplicationManager_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4DEC50A470784C1996D35892 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4EFA6A20632D467D9E14C314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JobApplicationManager_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		570C929B2CF446AE83DACD5A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/RelWithDebInfo";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_GUI_LIB,QT_WIDGETS_LIB,QT_SQL_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build",/Users/pyoungjinji/resume_manager/qt_resume/qt_resume,"/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/include_RelWithDebInfo","$(inherited)");
+				INFOPLIST_FILE = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib,"$(inherited)");
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/opt/qt/lib/QtWidgets.framework/Versions/A/QtWidgets,/opt/homebrew/opt/qt/lib/QtSql.framework/Versions/A/QtSql,/opt/homebrew/opt/qt/lib/QtGui.framework/Versions/A/QtGui,"-framework AGL","-framework AppKit","-framework OpenGL","-framework ImageIO","-framework Metal",/opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore,"-framework IOKit","-framework DiskArbitration","-framework UniformTypeIdentifiers","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.jobapplicationmanager;
+				PRODUCT_NAME = JobApplicationManager;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib,"$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib/QtCore.framework/Headers,"/opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang",/opt/homebrew/opt/qt/include,/opt/homebrew/opt/qt/lib/QtGui.framework/Headers,/opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers,/opt/homebrew/opt/qt/lib/QtSql.framework/Headers,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/build/JobApplicationManager.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		58A44D78F6E8432DAAED2907 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/build";
+			};
+			name = MinSizeRel;
+		};
+		62C0703221984656B994BECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JobApplicationManager_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		766436E1739B4282A98813B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SYMROOT = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/build";
+			};
+			name = Debug;
+		};
+		9133EA7F232E436F8F3FB5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/build";
+			};
+			name = Release;
+		};
+		A84BAA54B7F349BBA96BA39A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A9EB6DC5F9D04E0095BAE8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/Release";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_GUI_LIB,QT_WIDGETS_LIB,QT_SQL_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build",/Users/pyoungjinji/resume_manager/qt_resume/qt_resume,"/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/include_Release","$(inherited)");
+				INFOPLIST_FILE = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib,"$(inherited)");
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/opt/qt/lib/QtWidgets.framework/Versions/A/QtWidgets,/opt/homebrew/opt/qt/lib/QtSql.framework/Versions/A/QtSql,/opt/homebrew/opt/qt/lib/QtGui.framework/Versions/A/QtGui,"-framework AGL","-framework AppKit","-framework OpenGL","-framework ImageIO","-framework Metal",/opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore,"-framework IOKit","-framework DiskArbitration","-framework UniformTypeIdentifiers","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.jobapplicationmanager;
+				PRODUCT_NAME = JobApplicationManager;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib,"$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib/QtCore.framework/Headers,"/opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang",/opt/homebrew/opt/qt/include,/opt/homebrew/opt/qt/lib/QtGui.framework/Headers,/opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers,/opt/homebrew/opt/qt/lib/QtSql.framework/Headers,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/build/JobApplicationManager.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C2A2990497944A37A7958190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D1AA89FEDB804174BC073E9A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JobApplicationManager_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D1AC446F3906458A97D787AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E266A9E3119F4DC38FCFC324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/Debug";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_GUI_LIB,QT_WIDGETS_LIB,QT_SQL_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build",/Users/pyoungjinji/resume_manager/qt_resume/qt_resume,"/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/JobApplicationManager_autogen/include_Debug","$(inherited)");
+				INFOPLIST_FILE = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/CMakeFiles/JobApplicationManager.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib,"$(inherited)");
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/opt/qt/lib/QtWidgets.framework/Versions/A/QtWidgets,/opt/homebrew/opt/qt/lib/QtSql.framework/Versions/A/QtSql,/opt/homebrew/opt/qt/lib/QtGui.framework/Versions/A/QtGui,"-framework AGL","-framework AppKit","-framework OpenGL","-framework ImageIO","-framework Metal",/opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore,"-framework IOKit","-framework DiskArbitration","-framework UniformTypeIdentifiers","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.jobapplicationmanager;
+				PRODUCT_NAME = JobApplicationManager;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib,"$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/opt/qt/lib/QtCore.framework/Headers,"/opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang",/opt/homebrew/opt/qt/include,/opt/homebrew/opt/qt/lib/QtGui.framework/Headers,/opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers,/opt/homebrew/opt/qt/lib/QtSql.framework/Headers,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/pyoungjinji/resume_manager/qt_resume/qt_resume/cmake-build/build/JobApplicationManager.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F74313B5E4FA4F7382CD2809 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0166B1A48E29428683DED38F /* Build configuration list for PBXProject "JobApplicationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766436E1739B4282A98813B3 /* Debug */,
+				9133EA7F232E436F8F3FB5FB /* Release */,
+				58A44D78F6E8432DAAED2907 /* MinSizeRel */,
+				A84BAA54B7F349BBA96BA39A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		334B65A6BC9846DD825D157D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F54626207CD4EE0A6480042 /* Debug */,
+				C2A2990497944A37A7958190 /* Release */,
+				F74313B5E4FA4F7382CD2809 /* MinSizeRel */,
+				4DEC50A470784C1996D35892 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		898CA9B946EE4A78A021FF4E /* Build configuration list for PBXAggregateTarget "JobApplicationManager_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFA6A20632D467D9E14C314 /* Debug */,
+				62C0703221984656B994BECF /* Release */,
+				426D313C5555472FA32527AF /* MinSizeRel */,
+				D1AA89FEDB804174BC073E9A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E13EE1DB55B45AAA534850B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4A0FD976AE4312B5347F40 /* Debug */,
+				D1AC446F3906458A97D787AD /* Release */,
+				0B553A755D604C089FF9F520 /* MinSizeRel */,
+				07B33B6EDBB449A9A665DF2D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A33FD96996394DC0A72F99F9 /* Build configuration list for PBXNativeTarget "JobApplicationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E266A9E3119F4DC38FCFC324 /* Debug */,
+				A9EB6DC5F9D04E0095BAE8B9 /* Release */,
+				060E368450A64D739C9D444B /* MinSizeRel */,
+				570C929B2CF446AE83DACD5A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 994791D60A9348E3B9001699 /* Project object */;
+}

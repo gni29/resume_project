@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Background - squircle shape for Mac style -->
+  <rect width="1024" height="1024" rx="180" fill="#4a6984"/>
+  
+  <!-- Document -->
+  <rect x="256" y="205" width="512" height="667" rx="25" fill="white"/>
+  
+  <!-- Lines representing text in the document -->
+  <rect x="332" y="307" width="360" height="30" rx="10" fill="#4a6984" opacity="0.8"/>
+  <rect x="332" y="385" width="256" height="30" rx="10" fill="#4a6984" opacity="0.6"/>
+  
+  <!-- Personal info section -->
+  <circle cx="384" cy="490" r="50" fill="#4a6984" opacity="0.6"/>
+  <rect x="460" y="465" width="230" height="20" rx="10" fill="#4a6984" opacity="0.6"/>
+  <rect x="460" y="515" width="180" height="20" rx="10" fill="#4a6984" opacity="0.4"/>
+  
+  <!-- Skills/qualifications section -->
+  <rect x="332" y="590" width="360" height="20" rx="10" fill="#4a6984" opacity="0.6"/>
+  <rect x="332" y="640" width="360" height="20" rx="10" fill="#4a6984" opacity="0.5"/>
+  <rect x="332" y="690" width="360" height="20" rx="10" fill="#4a6984" opacity="0.4"/>
+  <rect x="332" y="740" width="256" height="20" rx="10" fill="#4a6984" opacity="0.3"/>
+  
+  <!-- Checkmark -->
+  <path d="M690 615 L740 665 L845 540" stroke="#5cb85c" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="715" cy="332" r="75" fill="none" stroke="#f0ad4e" stroke-width="30"/>
+  <line x1="765" y1="385" x2="820" y2="440" stroke="#f0ad4e" stroke-width="30" stroke-linecap="round"/>
+</svg>
