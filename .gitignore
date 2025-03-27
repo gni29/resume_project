@@ -1,0 +1,92 @@
+# C++ 객체 및 빌드 파일
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Qt 특정 파일
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+.qmake.cache
+.qmake.stash
+*.autosave
+
+# Qt Creator 프로젝트 파일
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# 빌드 디렉토리
+build/
+debug/
+release/
+Debug/
+Release/
+x64/
+cmake-build-*/
+
+# IDE 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 데이터베이스 파일
+*.db
+*.sqlite
+*.sqlite3
+
+# 애플리케이션 데이터 디렉토리
+.jobapp/
+job_postings/
+
+# Mac OS 특정 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows 특정 파일
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# 압축 파일
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
