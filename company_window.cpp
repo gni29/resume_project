@@ -218,11 +218,6 @@ void CompanyWindow::setupUi() {
     print_jd->setText(job_description);
     jdLayout->addWidget(print_jd);
     
-    // 직무 확인 버튼
-    open_jd_button = new QPushButton(tr("직무확인"));
-    connect(open_jd_button, &QPushButton::clicked, this, &CompanyWindow::onOpenJdClicked);
-    jdLayout->addWidget(open_jd_button);
-    
     formLayout->addRow(jdLabel, jdLayout);
     mainLayout->addLayout(formLayout);
     

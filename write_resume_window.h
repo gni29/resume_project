@@ -1,13 +1,15 @@
 #ifndef write_resume_window_h
 #define write_resume_window_h
 
+// 기존 헤더에 Qt 기본 헤더 추가
 #include <QDialog>
-#include <QString>
+#include <QString>  // QString 사용을 위해 추가
 #include <QVector>
 #include <QTimer>
 #include <QFile>
 #include <QStackedWidget>
 
+// 기존의 전방 선언들 유지
 class QLineEdit;
 class QTextEdit;
 class QLabel;
@@ -16,8 +18,9 @@ class QVBoxLayout;
 class QScrollArea;
 class NumIssueWindow;
 
+// 이하 기존 코드 완전히 동일하게 유지
 class WriteResumeWindow : public QDialog {
-    Q_OBJECT
+    Q_OBJECT  // Qt 메타 오브젝트 시스템 매크로 추가
     
 public:
     WriteResumeWindow(QWidget* parent, const QString& company_dir);
@@ -70,4 +73,4 @@ private:
     }
 };
 
-#endif // WRITE_RESUME_WINDOW_HPP
+#endif // write_resume_window_h

@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'JobApplicationManager' in project 'JobApplicationManager'
+➜ Explicit dependency on target 'Qt Preprocess' in project 'JobApplicationManager'
+Target 'Qt Preprocess' in project 'JobApplicationManager' (no dependencies)
