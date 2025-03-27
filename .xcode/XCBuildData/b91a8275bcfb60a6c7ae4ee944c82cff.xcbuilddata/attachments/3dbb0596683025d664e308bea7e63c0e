@@ -1,2 +1,0 @@
-#!/bin/sh
-make -C /Users/pyoungjinji/resume_manager/qt_resume/qt_resume -f JobApplicationManager.xcodeproj/qt_preprocess.mak
